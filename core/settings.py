@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     # libs
     'rest_framework',
     'drf_yasg',
-    'cloudpayments',
 
 
 
@@ -64,10 +63,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'core.urls'
-
-CLOUDPAYMENTS_PUBLIC_ID = 'your_public_id_here'
-CLOUDPAYMENTS_API_SECRET = 'your_api_secret_here'
-CLOUDPAYMENTS_USE_POST_3D = False
 
 TEMPLATES = [
     {
